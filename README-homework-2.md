@@ -7,11 +7,11 @@ Responsive design ensures that web applications render well on a variety of devi
 
 First, you will use the Bootstrap CSS Framework to create your portfolio. How do you deliver this? Here are some guidelines:
 
-~~* Create the following pages: `index.html`, `portfolio.html` and `contact.html`.
+~~* Create the following pages: `index.html`, `portfolio.html` and `contact.html`.~~
 
 * Using Bootstrap, create your portfolio site with the following items:
 
-   ~~* A navbar
+   ~~* A navbar~~
 
    * A responsive layout
 
@@ -19,17 +19,17 @@ First, you will use the Bootstrap CSS Framework to create your portfolio. How do
 
 * The Bootstrap portfolio should minimize the use of media queries.
 
-~~* The `index.html` page should have the following: 
+~~* The `index.html` page should have the following: ~~
 
-   ~~* An `About Me` section with an image and a short bio. The text should flow around the image in some form. 
+   ~~* An `About Me` section with an image and a short bio. The text should flow around the image in some form. ~~
 
-~~* The `portfolio.html` should have the following:
+~~* The `portfolio.html` should have the following:~~
 
-   ~~* A `Gallery` of some sort with repeating images overlaid with links. This is to be filled in later with your projects!
+   ~~* A `Gallery` of some sort with repeating images overlaid with links. This is to be filled in later with your projects!~~
 
-~~* The `contact.html` should have the following: 
+~~* The `contact.html` should have the following: ~~
 
-   ~~* A Form to send you a message in case someone finds your portfolio!
+   ~~* A Form to send you a message in case someone finds your portfolio!~~
 
 
 ### Hints
