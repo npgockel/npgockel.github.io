@@ -6,53 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Nectarios "Ari" Gockel</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-xl navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="/index.html">Nectarios Gockel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-xl navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark bg-dark">
+            <a class="navbar-brand" href="/index.html">Nectarios Gockel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <div class="container">
         <div class="row">
-            <div class="col jumbotron">
-                <h1 class="display-3 row" data-toggle="tooltip" data-placement="right" title="Boy Howdy!">Hello, world!</h1>
-                <hr class="my-4">
-                <div class="row btn-group" role="group" aria-label="Basic example">
-                    <a class="btn btn-primary btn-lg" href="/portfolio.html" role="button">Click Here To Go To My Portfolio</a>
-                    <a class="btn btn-primary btn-lg" href="/contact.html" role="button">Contact Me</a>
+            <div class="col text-center">
+                <div class="jumbotron">
+                    <h1 class="display-3" data-toggle="tooltip" data-placement="right" title="Boy Howdy!">Hello, world!</h1>
                 </div>
             </div>
-            <div class="media row">
-                <img src="/assets/img/bio-image.png" class="mr-3 col-xl-4 col-lg-4col-md-4 col-sm-4 col-xs" alt="A picture of Nectarios Gockel">
-                <div class="media-body col-md-8 col-sm-8 col-xs">
-                    <h5 class="mt-0">Nectarios "Ari" Gockel</h5>
-                    <p>Nectarios enrolled in the Coding Boot Camp to learn how to craft and understand digital creations. His three goals include:</p>
-                    <ul>
-                        <li>To create a gig-service app.</li>
-                        <li>To develop a plug-and-chug/WYSIWYG website format for his church community, with the goal of easy-to-use, useful, and interactive websites.</li>
-                        <li>To work so that I can live, not live to work.</li>
-                    </ul>
-                </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div id="hom-pag-jum-but" class="btn-group col-8 text-center" role="group" aria-label="Basic example">
+                <a class="btn btn-primary btn-lg" href="/portfolio.html" role="button">Click Here To Go To My Portfolio</a>
+                <a class="btn btn-primary btn-lg" href="/contact.html" role="button">Contact Me</a>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="media row">
+            <img src="/assets/img/bio-image.png" class="mr-3 col-xl-4 col-lg-4 col-md-4 col-sm-4 col-xs" alt="A picture of Nectarios Gockel">
+            <div class="media-body col-xl-8 col-lg-8 col-md-8 col-sm-8 col-xs">
+                <h5 class="mt-0">Nectarios "Ari" Gockel</h5>
+                <p>Nectarios enrolled in the Coding Boot Camp to learn how to craft and understand digital creations. His three goals include:</p>
+                <ul>
+                    <li>To create a gig-service app.</li>
+                    <li>To develop a plug-and-chug/WYSIWYG website format for his church community, with the goal of easy-to-use, useful, and interactive websites.
+                        <ul>
+                            <li>Preferably open-source.</li>
+                        </ul>
+                    </li>
+                    <li>Work to live, not live to work.</li>
+                </ul>
             </div>
         </div>
     </div>
+    </div>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
